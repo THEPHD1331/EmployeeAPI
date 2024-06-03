@@ -5,31 +5,31 @@ I conceived and realized a robust Employee REST CRUD API project using Spring Bo
 
 # Key Features:
 
-Entity-Centric Design: 
+## Entity-Centric Design: 
 
 The project adopts a meticulously designed entity model with a focus on the "Employee" entity. This model includes essential attributes such as name, contact information, and job details, ensuring a comprehensive representation of employee data.
 
-CRUD Operations: 
+## CRUD Operations: 
 
 The API offers comprehensive CRUD functionality, enabling Create, Read, Update, and Delete operations for Employee records. This empowers users to manage employee information with ease and precision.
 
-Spring Security for Role-Based Access Control:
+## Spring Security for Role-Based Access Control:
 
 Spring Security is seamlessly integrated to enforce role-based access control. The system assigns three distinct roles - Administrator, Manager, and Employee - each with specific privileges:
 
-Administrator: Has the authority to delete employees in addition to Manager-level tasks.
+### Administrator: Has the authority to delete employees in addition to Manager-level tasks.
 
-Manager: Can update and delete employees in addition to Employee-level tasks.
+### Manager: Can update and delete employees in addition to Employee-level tasks.
 
-Employee: Can read (view) employee information.
+### Employee: Can read (view) employee information.
 
 Secure Authentication: Robust authentication mechanisms are implemented to ensure secure access to the API. Users are required to authenticate themselves using username and password credentials.
 
-RESTful Architecture:
+## RESTful Architecture:
 
 The API adheres to RESTful architectural principles, offering logically structured endpoints with standardized HTTP methods. This ensures a user-friendly and predictable interaction pattern for clients.
 
-Documentation: 
+## Documentation: 
 
 I have meticulously documented the API endpoints using tools like Swagger. This documentation simplifies API consumption, accelerates developer onboarding, and promotes collaborative development efforts.
 
